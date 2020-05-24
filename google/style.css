@@ -5,6 +5,8 @@ body {
     margin: 1em;
 }
 
+/* header */
+
 .header-list {
     display: flex;
     justify-content: flex-end;
@@ -15,6 +17,16 @@ body {
     padding-right: 25px;
     padding-top: 7px;
 }
+
+.header-list-item:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+/* header's 9 dots */
 
 .grid-container {
     display: grid;
@@ -33,10 +45,9 @@ body {
     margin-top: 7px;
 }
 
-li {
-    list-style: none;
-}
 
+
+/* acc-info */
 #header-account-info {
     margin-right: 10px;
     border: 1px solid darkgreen;
@@ -48,11 +59,13 @@ li {
     font-weight: 600;
 }
 
+/* google logo */
+
 #google {
     text-align: center;
     font-size: 46px;
     letter-spacing: -12px;
-    margin-top: 110px;
+    margin-top: 100px;
 }
 
 .blue {
@@ -68,11 +81,14 @@ li {
     color: #0F9D58;
 }
 
+
+/* search bar */
+
 input {
     display: block;
     margin: 0 auto;
     color: dimgray;
-    width: 450px;
+    width: 550px;
     height: 45px;
     padding: 15px 45px;
     border-radius: 20px;
@@ -80,8 +96,9 @@ input {
     box-sizing: border-box;
     border: 1px solid white;
     position: relative;
-    bottom: 33px;
+    bottom: 30px;
     font-size: 16px;
+    font-weight: 200;
     -webkit-box-shadow: 0px 4px 12px 2px rgba(0,0,0,0.16);
     -moz-box-shadow: 0px 4px 12px 2px rgba(0,0,0,0.16);
     box-shadow: 0px 4px 12px 2px rgba(0,0,0,0.16);
