@@ -151,9 +151,9 @@ input {
 
 /* shortcut field icons' background */
 
-.inbox-border, .codepen-border, 
-.calendar-border, .drive-border, 
-.youtube-border, .plus-border {
+.inbox-bgcolor, .codepen-bgcolor, 
+.calendar-bgcolor, .drive-bgcolor, 
+.youtube-bgcolor, .plus-bgcolor {
     border: 1px solid #ECECEC;
     background-color: #ECECEC;
     border-radius: 50%;
