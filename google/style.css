@@ -180,8 +180,14 @@ input {
     text-align: center;
     font-size: 12px;
     font-weight: bold;
-    border: 1px solid gray;
     padding-top: 16px;
+}
+
+.shortcut-box:hover {
+    border: 1px none #F5F5F5;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+    
 }
 
 /* customize (footer) */
