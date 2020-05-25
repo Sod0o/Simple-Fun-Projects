@@ -169,18 +169,19 @@ input {
 .shortcut-grid-container {
     display: grid;
     justify-content: center;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 124px;
-    grid-gap: 4px;
-    margin-top: 23px;
+    grid-template-columns: 112px 112px 112px;
+    grid-template-rows: 128px;
+    margin-top: 7px;
 }
 
 .shortcut-box {
-    width: 120px;
-    height: 100px;
+    width: 112px;
+    height: 114px;
     text-align: center;
     font-size: 12px;
     font-weight: bold;
+    border: 1px solid gray;
+    padding-top: 16px;
 }
 
 /* customize (footer) */
